@@ -1,0 +1,35 @@
+header{
+    background: white;
+    padding: 0;
+    border-bottom: 1px solid #e72929;
+}
+
+a{
+    color:#af1313
+}
+
+a:hover{
+    background: #e72929;
+    color: white;
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+}
+
+a.logo{
+    font-weight: bold;
+    padding: 1em;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li a {
+    padding: 1em;
+    display: inline-block;
+}
